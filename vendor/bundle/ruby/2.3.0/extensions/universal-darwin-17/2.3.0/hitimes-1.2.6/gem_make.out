@@ -1,0 +1,24 @@
+current directory: /Users/benjamindonan/Documents/GitHub/meme/vendor/bundle/ruby/2.3.0/gems/hitimes-1.2.6/ext/hitimes/c
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/bin/ruby -r ./siteconf20180314-13162-1fjg9rb.rb extconf.rb
+creating Makefile
+
+current directory: /Users/benjamindonan/Documents/GitHub/meme/vendor/bundle/ruby/2.3.0/gems/hitimes-1.2.6/ext/hitimes/c
+make "DESTDIR=" clean
+
+current directory: /Users/benjamindonan/Documents/GitHub/meme/vendor/bundle/ruby/2.3.0/gems/hitimes-1.2.6/ext/hitimes/c
+make "DESTDIR="
+compiling hitimes_instant_osx.c
+compiling hitimes_stats.c
+compiling hitimes_instant_windows.c
+compiling hitimes.c
+compiling hitimes_interval.c
+compiling hitimes_instant_clock_gettime.c
+linking shared-object hitimes/2.3/hitimes.bundle
+ld: warning: directory not found for option '-L/BuildRoot/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.Internal.sdk/usr/local/libressl/lib'
+ld: warning: directory not found for option '-L/BuildRoot/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.Internal.sdk/usr/local/lib'
+ld: warning: directory not found for option '-L/BuildRoot/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.Internal.sdk/usr/local/libressl/lib'
+ld: warning: directory not found for option '-L/BuildRoot/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.Internal.sdk/usr/local/lib'
+
+current directory: /Users/benjamindonan/Documents/GitHub/meme/vendor/bundle/ruby/2.3.0/gems/hitimes-1.2.6/ext/hitimes/c
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 hitimes.bundle ./.gem.20180314-13162-1qpjtg8/hitimes/2.3
